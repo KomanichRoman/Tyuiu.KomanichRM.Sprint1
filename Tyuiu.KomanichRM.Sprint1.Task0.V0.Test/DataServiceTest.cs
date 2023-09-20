@@ -12,8 +12,8 @@ namespace Tyuiu.KomanichRM.Sprint1.Task0.V0.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            var res = ds.Culculate();
-            Assert.AreEqual(2, res);
+            var res = ds.Calculate();
+            Assert.AreEqual(-10.5, res);
         }
     }
 }
