@@ -31,7 +31,7 @@ namespace Tyuiu.KomanichRM.Sprint1.Task0.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* (3/6-4)*3                                                               *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                            *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
             Console.Write(ds.Calculate());
