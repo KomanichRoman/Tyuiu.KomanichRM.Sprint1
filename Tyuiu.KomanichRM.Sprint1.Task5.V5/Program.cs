@@ -13,7 +13,6 @@ namespace Tyuiu.KomanichRM.Sprint1.Task5.V5
         {
             DataService ds = new DataService();
             //Task5
-
             Console.Title = "Спринт #1 | Выполнил: Команич Р. М. | АСОиУб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
