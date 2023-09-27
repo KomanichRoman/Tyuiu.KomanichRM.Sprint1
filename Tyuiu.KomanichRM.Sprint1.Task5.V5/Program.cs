@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tyuiu.KomanichRM.Sprint1.Task5.V5.Lib;
 
-using Tyuiu.KomanichRM.Sprint1.Task0.V0.Lib;
-
-namespace Tyuiu.KomanichRM.Sprint1.Task0.V0
+namespace Tyuiu.KomanichRM.Sprint1.Task5.V5
 {
     class Program
     {
@@ -18,25 +17,28 @@ namespace Tyuiu.KomanichRM.Sprint1.Task0.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #10                                                              *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Команич Роман Маркович | АСОиУб-23-3                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет выражение (3/6-4)*3               *");
-            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("* Написать программу, которая присваивает целой переменной первую цифру   *");
+            Console.WriteLine("* из дробной части положительного вещественного числа X.                  *");
             Console.WriteLine("*                                                                         *");
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* (3/6-4)*3                                                               *");
+
+            Console.WriteLine("Введите переменную X:");
+            double x = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.Write(ds.Calculate());
-            Console.ReadLine();
-
+            Console.WriteLine("Первая цифра дробной части числа X = " + ds.Calculate(x));
+            Console.ReadKey();
         }
     }
 }
