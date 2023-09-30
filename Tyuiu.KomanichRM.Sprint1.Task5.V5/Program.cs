@@ -12,7 +12,7 @@ namespace Tyuiu.KomanichRM.Sprint1.Task5.V5
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            //Task5
+
             Console.Title = "Спринт #1 | Выполнил: Команич Р. М. | АСОиУб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -25,7 +25,6 @@ namespace Tyuiu.KomanichRM.Sprint1.Task5.V5
             Console.WriteLine("* Написать программу, которая присваивает целой переменной первую цифру   *");
             Console.WriteLine("* из дробной части положительного вещественного числа X.                  *");
             Console.WriteLine("*                                                                         *");
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
