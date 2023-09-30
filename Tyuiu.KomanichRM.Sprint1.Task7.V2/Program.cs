@@ -34,8 +34,8 @@ namespace Tyuiu.KomanichRM.Sprint1.Task7.V2
 
             Console.WriteLine("Введите переменную Y:");
             double y = Convert.ToDouble(Console.ReadLine());
-            
-            Console.WriteLine(ds.Calculate(x,y));
+
+            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadKey();
         }
     }
