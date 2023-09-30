@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.KomanichRM.Sprint1.Task7.V2.Lib;
+using Tyuiu.KomanichRM.Sprint1.Task6.V1.Lib;
 
-namespace Tyuiu.KomanichRM.Sprint1.Task7.V2
+namespace Tyuiu.KomanichRM.Sprint1.Task6.V1
 {
     class Program
     {
@@ -16,31 +16,25 @@ namespace Tyuiu.KomanichRM.Sprint1.Task7.V2
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #7                                                              *");
-            Console.WriteLine("* Вариант #2                                                              *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Команич Роман Маркович | АСОиУб-23-3                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет математическое выражение          *");
-            Console.WriteLine("* (sin(x) + cos(y)) / (cos(x) - sin(y)) * tg(xy)                          *");
-            Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                   *");
+            Console.WriteLine("* Написать программу, которая выводит код введенного пользователем        *");
+            Console.WriteLine("* символа                  *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine("Введите переменную X:");
-            double x = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите переменную Y:");
-            double y = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите символ:");
+            string value = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Решение математического выражения: " + ds.Calculate(x, y));
-
+            Console.WriteLine("Код введенного символа: " + ds.SymbolCode(value));
             Console.ReadKey();
         }
     }
