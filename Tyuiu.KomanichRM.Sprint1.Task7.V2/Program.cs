@@ -15,7 +15,7 @@ namespace Tyuiu.KomanichRM.Sprint1.Task7.V2
             Console.Title = "Спринт #1 | Выполнил: Команич Р. М. | АСОиУб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту.                *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Команич Роман Маркович | АСОиУб-23-3                          *");
