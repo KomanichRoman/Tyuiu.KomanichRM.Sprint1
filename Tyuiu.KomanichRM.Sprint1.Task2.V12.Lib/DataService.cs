@@ -11,7 +11,7 @@ namespace Tyuiu.KomanichRM.Sprint1.Task2.V12.Lib
     {
         public int CalculateParallelepipedVolume(int value, int valueTwo, int valueThree)
         {
-            return value * (valueTwo * valueThree);
+            return value * valueTwo * valueThree;
         }
     }
 }
